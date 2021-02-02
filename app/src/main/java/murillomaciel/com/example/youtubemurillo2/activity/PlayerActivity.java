@@ -1,6 +1,5 @@
 package murillomaciel.com.example.youtubemurillo2.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
