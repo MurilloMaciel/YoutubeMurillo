@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">YoutubeMurillo2</string>
+    <string name="toolbar_title">Youtube</string>
+    <string name="error">Ocorreu um erro\ntoque para tentar novamente</string>
 </resources>

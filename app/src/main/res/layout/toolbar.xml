@@ -4,14 +4,14 @@
     android:layout_height="?attr/actionBarSize">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_id"
+        android:id="@+id/tb_search"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"/>
+        android:background="@color/colorPrimary" />
 
     <com.miguelcatalan.materialsearchview.MaterialSearchView
+        android:id="@+id/mts_search"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/searchView_id"/>
+        android:layout_height="wrap_content" />
 
 </FrameLayout>

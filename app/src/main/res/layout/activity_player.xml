@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.PlayerActivity"
+    android:background="@color/black"
     android:orientation="vertical"
-    android:background="@color/black">
+    tools:context=".activity.PlayerActivity">
 
     <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/playerVideo_id"
         android:layout_width="match_parent"
-        android:layout_height="344dp"
-        android:id="@+id/playerVideo_id"/>
+        android:layout_height="344dp" />
 
 </LinearLayout>
